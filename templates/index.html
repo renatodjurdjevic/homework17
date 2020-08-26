@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="d-flex flex-column text-center">
+
+    <form method="post" action="/result">
+
+        <div class="p-2">
+            <input type="text" name="guess" placeholder="Enter your guess">
+        </div>
+
+        <div class="p-2">
+            <button type="submit" value="Submit Button" class="btn btn-primary btn-lg">Submit</button>
+        </div>
+
+    </form>
+
+</div>
+
+{% endblock content %}
